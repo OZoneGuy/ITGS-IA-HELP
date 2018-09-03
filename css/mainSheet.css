@@ -1,0 +1,132 @@
+body {
+  margin: 0;
+}
+
+#banner {
+  /* margins */
+  margin-left: auto;
+  margin-right: auto;
+  /* positioning */
+  position: relative;
+  padding-top: 10px;
+  margin-bottom: 20px;
+}
+
+#logo {
+  width: 150px;
+  /* margins */
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#nav_holder {
+  /* Sizing */
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  /* styling */
+  background-color: #006A0F;
+  box-shadow: 0 2px 20px;
+  display: inline-block;
+}
+
+#nav_menu {
+  /* margins */
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  /* positioning */
+  float: right;
+  clear: left;
+  position: relative;
+  right: 50%;
+  line-height: 50px;
+}
+
+.nav_item {
+  list-style: none;
+  float: left;
+  position: relative;
+  left: 50%;
+  padding-left: 10px;
+  padding-right: 10px;
+  font-size: 25px;
+}
+
+.nav_item:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
+.nav_link {
+  text-decoration: none
+}
+
+.nav_link:link {
+  color: black;
+}
+
+.nav_link:visited {
+  color: black;
+}
+
+#main_box {
+  /*Sizing*/
+  width: 70%;
+  height: auto;
+  /* styling */
+  background: #d5d5d5;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px black;
+  text-align: center;
+  /* Padding */
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* margins */
+  margin-left: auto;
+  margin-right: 20px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  /* positioning */
+  float: right;
+  position: relative;
+}
+
+.MB_heading {
+  font-family: sans-serif;
+}
+
+.MB_text {
+  font-family: sans-serif;
+  text-align: left;
+}
+
+#side_box {
+  /* Sizing */
+  width: 24%;
+  height: auto;
+  /* styling */
+  background: #d5d5d5;
+  border-radius: 5px;
+  box-shadow: 2px 2px 20px;
+  /* positioning */
+  position: relative;
+  float: left;
+  /* Padding */
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 15px;
+  padding-left: 15px;
+  /* margins */
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: auto;
+  margin-left: 10px;
+}
+
+.SB_heading{
+  font-family: sans-serif;
+}
