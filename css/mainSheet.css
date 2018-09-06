@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #e8f5e9;
 }
 
 #banner {
@@ -10,6 +11,8 @@ body {
   position: relative;
   padding-top: 10px;
   margin-bottom: 20px;
+  background-color: #00600f;
+  box-shadow: 0 -5px 60px;
 }
 
 #logo {
@@ -22,11 +25,9 @@ body {
 #nav_holder {
   /* Sizing */
   width: 100%;
-  margin: 0;
+  margin-top: 10px;
   padding: 0;
   /* styling */
-  background-color: #006A0F;
-  box-shadow: 0 2px 20px;
   display: inline-block;
 }
 
@@ -53,10 +54,12 @@ body {
   padding-left: 10px;
   padding-right: 10px;
   font-size: 25px;
+
+  transition: background 0.15s ease-in;
 }
 
 .nav_item:hover {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: #43a047;
 }
 
 .nav_link {
@@ -77,9 +80,9 @@ body {
   height: auto;
   /* styling */
   background: #d5d5d5;
-  border-radius: 5px;
-  box-shadow: 2px 2px 20px black;
+  box-shadow: inset 0 0 10px #000000;
   text-align: center;
+  border-radius: 5px;
   /* Padding */
   padding-top: 15px;
   padding-bottom: 15px;
@@ -106,12 +109,12 @@ body {
 
 #side_box {
   /* Sizing */
-  width: 24%;
+  width: 22%;
   height: auto;
   /* styling */
   background: #d5d5d5;
+  box-shadow: inset 0 0 10px #000000;
   border-radius: 5px;
-  box-shadow: 2px 2px 20px;
   /* positioning */
   position: relative;
   float: left;
